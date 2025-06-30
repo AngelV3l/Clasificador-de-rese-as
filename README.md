@@ -28,12 +28,18 @@ Este proyecto consiste en el desarrollo de un modelo de machine learning que cla
 
 ## 📁 Estructura del repositorio
 
-review-sentiment-api/
+Clasificador de reseñas/
+
 ├── data/ # Dataset original o preprocesado
+
 ├── notebooks/ # Exploración y modelado
+
 ├── src/ # Código fuente del modelo
+
 ├── app/ # Código del API (FastAPI o Flask)
+
 ├── requirements.txt # Dependencias del proyecto
+
 └── README.md # Este archivo
 
 ---
