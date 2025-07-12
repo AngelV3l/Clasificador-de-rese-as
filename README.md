@@ -73,31 +73,43 @@ Clasificador de reseñas/
 ## 🚀 Cómo ejecutar el proyecto
 
 ### 1. Clona el repositorio
+
 git clone https://github.com/AngelV3l/Clasificador-de-rese-as.git
+
 cd nombre-repositorio
 
 ### 2. Crea un entorno virtual
+
 python -m venv venv
+
 source venv/bin/activate   # Linux/Mac
+
 venv\Scripts\activate      # Windows
 
 ### 3. Instala las dependencias
+
 pip install -r requirements.txt
 
 ### 4. Ejecutar la interfaz visual (Gradio)
+
 cd app
+
 python app_gradio.py
+
 - Se abrirá en tu navegador en http://127.0.0.1:7860/
 
 ### 5. Ejecutar la API REST (FastAPI)
 
 cd app
+
 uvicorn api:app --reload
+
 - Accede a la documentación interactiva en http://127.0.0.1:8000/docs
 
 ---
 
 ## 🧪 Dataset
+
 Fuente: IMDb Movie Reviews Dataset.
 
 Clasificación binaria: positive o negative.
