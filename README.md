@@ -17,11 +17,17 @@ Este proyecto consiste en un pipeline completo de ciencia de datos para clasific
 ## 📁 Estructura del proyecto
 
 Clasificador de reseñas/
+
 │
+
 ├── app/ ← Contiene API REST (FastAPI) y frontend (Gradio)
+
 │ ├── api.py
+
 │ └── app_gradio.py
+
 │
+
 ├── data/ ← Datos crudos y preprocesados
 │ ├── IMDB_reviews.csv
 │ └── IMDB_reviews_clean.csv
@@ -45,13 +51,10 @@ Clasificador de reseñas/
 
 ---
 
-
----
-
 ## 🚀 Cómo ejecutar el proyecto
 
 ### 1. Clona el repositorio
-git clone https://github.com/tuusuario/nombre-repositorio.git
+git clone https://github.com/AngelV3l/Clasificador-de-rese-as.git
 cd nombre-repositorio
 
 ### 2. Crea un entorno virtual
