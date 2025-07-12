@@ -29,24 +29,43 @@ Clasificador de reseñas/
 │
 
 ├── data/ ← Datos crudos y preprocesados
+
 │ ├── IMDB_reviews.csv
+
 │ └── IMDB_reviews_clean.csv
+
 │
+
 ├── model/ ← Modelo entrenado y vectorizador
+
 │ ├── modelo_svm.pkl
+
 │ └── tfidf_vectorizer.pkl
+
 │
+
 ├── notebooks/ ← Exploración y modelado en Jupyter
+
 │ ├── EDA_reviews.ipynb
+
 │ └── preprocesamiento_modelado.ipynb
+
 │
+
 ├── src/ ← Scripts reutilizables (utils)
+
 │ ├── guardar_prediccion.py
+
 │ ├── consultar_db.py
+
 │ └── setup_db.py
+
 │
+
 ├── predicciones.db ← Base de datos SQLite con las predicciones
+
 ├── requirements.txt ← Dependencias del proyecto
+
 └── README.md ← Este archivo
 
 ---
