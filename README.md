@@ -76,7 +76,6 @@ Clasificador de reseñas/
 
 git clone https://github.com/AngelV3l/Clasificador-de-rese-as.git
 
-cd nombre-repositorio
 
 ### 2. Crea un entorno virtual
 
